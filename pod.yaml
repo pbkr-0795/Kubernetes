@@ -1,0 +1,10 @@
+api Version: v1
+kind: pod
+metadata: -
+  name: ngnix-with-yaml
+spec: -
+  containers:
+  -  name: ngnix
+     images: nginx:latest
+     ports: 
+     - containerPort: 80
